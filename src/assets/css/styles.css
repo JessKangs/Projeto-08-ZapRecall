@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Recursive', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*font-family: 'Righteous', cursive;*/
+
+body {
+    background-color: #FB6B6B;
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 667px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.pagina img {
+    width: 136px;
+    height: 161px;
+}
+
+.pagina button {
+    border: 1px #D70900 solid;
+    width: 246px;
+    height: 54px;
+    border-radius: 5px;
+    color: #D70900;
+    box-shadow: 0 2px rgba(39, 39, 39, 0.2);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.titulo-pag {
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.titulo-pag img {
+    width: 52px;
+    height: 60px;
+}
+
+.card {
+    height: 65px;
+    width: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba(39, 39, 39, 0.2);
+    margin-bottom: 25px;
+}
+
+.card ion-icon {
+    font-size:  30px;
+}
+
+.virado {
+    width: 299px;
+    height: 131px;
+    align-items: unset;
+    padding-top: 18px;
+    font-weight: 400;
+}
+
+.virado ion-icon {
+    margin-top: 90px;
+}
+
+.resposta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.botoes {
+    display: flex;
+    align-items: inline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.botoes button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+}
+
+.red {
+    width: 85.17px;
+    height: 37.17px;
+    background-color: #FF3030;
+    
+}
+
+.orange {
+    width: 85.17px;
+    height: 37.17px;
+    background-color: #FF922E;
+}
+
+.green {
+    width: 85.17px;
+    height: 37.17px;
+    background-color: #2FBE34;
+}
+
+
+.botStatus {
+    height: 70px;
+    width: 375px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
