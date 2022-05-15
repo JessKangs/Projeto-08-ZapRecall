@@ -1,8 +1,9 @@
 import PaginaInicial from "./PaginaInicial";
 import { BrowserRouter, Routes, Route} from "react-router-dom"
-import Quizzes from "./Quizzes"
+import Cards from "./Cards"
 
 export default function App () {
+
 
     return (
 
@@ -11,8 +12,7 @@ export default function App () {
           <Routes>
 
             <Route path="/" element={<PaginaInicial />} />
-            <Route path="/perguntas" element={<Quizzes/>} />
-
+            <Route path="/cards" element={<Cards />} />
           </Routes>
 
         </BrowserRouter>

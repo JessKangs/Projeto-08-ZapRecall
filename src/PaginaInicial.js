@@ -9,7 +9,7 @@ export default function PaginaInicial () {
             <div className="pagina">
             <img src={logo} alt=""></img>
             <h1 className="titulo-pag">ZapRecall</h1>
-            <Link to="/perguntas"><button>Iniciar Recall!</button></Link>
+            <Link to="/cards"><button>Iniciar Recall!</button></Link>
             </div>
         </>
     )

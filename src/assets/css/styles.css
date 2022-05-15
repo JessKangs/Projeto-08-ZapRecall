@@ -12,7 +12,12 @@ body {
     justify-content: center;
     width: 375px;
     height: 667px;
+    
+}
+
+.root {
     font-family: 'Recursive', sans-serif;
+    
 }
 
 .pagina {
@@ -39,7 +44,7 @@ body {
     font-size: 18px;
 }
 
-button:hover {
+button:hover, Link:hover{
     cursor: pointer;
 }
 
@@ -59,8 +64,14 @@ button:hover {
     height: 60px;
 }
 
+.cards {
+    padding-bottom: 80px;
+}
+
 .card {
-    height: 65px;
+    min-height: 65px;
+    max-height: 131px;
+    height: auto;
     width: 300px;
     background-color: #FFFFFF;
     display: flex;
@@ -72,6 +83,8 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 2px rgba(39, 39, 39, 0.2);
     margin-bottom: 25px;
+    text-decoration: none;
+    color: black;
 }
 
 .card ion-icon {
@@ -79,8 +92,6 @@ button:hover {
 }
 
 .virado {
-    width: 299px;
-    height: 131px;
     align-items: unset;
     padding-top: 18px;
     font-weight: 400;
